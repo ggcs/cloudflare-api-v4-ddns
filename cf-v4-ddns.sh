@@ -28,16 +28,16 @@ set -o pipefail
 
 # API key, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-key results in E_UNAUTH error
-CFKEY=
+CFKEY=c9320b638f5e225
 
-# Username, eg: user@example.com
-CFUSER=
+# Username, eg: 
+CFUSER=user@example.com
 
-# Zone name, eg: example.com
-CFZONE_NAME=
+# Zone name, eg: 
+CFZONE_NAME=example.com
 
-# Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=
+# Hostname to update, eg: 
+CFRECORD_NAME=www.example.com
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
 CFRECORD_TYPE=A
